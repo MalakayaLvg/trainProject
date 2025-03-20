@@ -1,0 +1,29 @@
+#info {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    pointer-events: none;
+    z-index: 100;
+}
+#controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0,0,0,0.7);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#colorPicker {
+    margin-left: 10px;
+    vertical-align: middle;
+}
